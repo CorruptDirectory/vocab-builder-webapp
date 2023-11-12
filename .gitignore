@@ -1,2 +1,24 @@
-# Python
-.venv
+# Virtual enviroment
+.venv/
+
+# Python bytecode
+*.pyc
+__pycache__/
+*.pyo
+
+# Database
+*.sqlite3
+
+# Media and static files
+media/
+static/
+
+# Enviroment variables and secret keys
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Cache
+.django_cache/
