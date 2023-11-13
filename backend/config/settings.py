@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'users.apps.UsersConfig',
+    'languages.apps.LanguagesConfig',
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -126,6 +127,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# A URL path (how these files are accessed via a web browser)
+MEDIA_URL = '/media/'
+# A file system path (a path on your server where files are stored)
+MEDIA_ROOT = BASE_DIR / 'media'
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
