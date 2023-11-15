@@ -14,7 +14,6 @@ class LanguageAdmin(admin.ModelAdmin):
 class TranslationAdmin(admin.ModelAdmin):
     model = Translation
     list_display = ['word', 'language', 'translated_text']
-    
     list_filter = ['language__name']
     search_fields = ['translated_text']
     ordering = ['word']
