@@ -1,0 +1,25 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin: 48px;
+}
+
+label {
+  padding: 1rem;
+}
+
+select {
+  padding: 1rem;
+  font-size: inherit;
+}
+
+option {
+  font-size: inherit;
+}

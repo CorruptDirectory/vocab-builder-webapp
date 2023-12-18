@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  border: 3px solid #aaa;
+  border-radius: 10px;
+}
+.card .word {
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+}
